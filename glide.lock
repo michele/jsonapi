@@ -1,0 +1,40 @@
+hash: 3503d7009b2d3a6280186c3fb43285fdd20d2471298eb69acbac23cd000a2529
+updated: 2017-02-15T09:59:31.480845296+01:00
+imports:
+- name: github.com/gedex/inflector
+  version: 046f2c31204676e3623730ee70fd0964e05822e7
+- name: github.com/guregu/null
+  version: 4ac4f00378f403715e68ae8827a8b1d8e9addf4a
+  subpackages:
+  - zero
+- name: github.com/onsi/ginkgo
+  version: 462326b1628e124b23f42e87a8f2750e3c4e2d24
+  subpackages:
+  - config
+  - internal/codelocation
+  - internal/containernode
+  - internal/failer
+  - internal/leafnodes
+  - internal/remote
+  - internal/spec
+  - internal/specrunner
+  - internal/suite
+  - internal/testingtproxy
+  - internal/writer
+  - reporters
+  - reporters/stenographer
+  - types
+- name: github.com/onsi/gomega
+  version: a78ae492d53aad5a7a232d0d0462c14c400e3ee7
+  subpackages:
+  - format
+  - internal/assertion
+  - internal/asyncassertion
+  - internal/testingtsupport
+  - matchers
+  - matchers/support/goraph/bipartitegraph
+  - matchers/support/goraph/edge
+  - matchers/support/goraph/node
+  - matchers/support/goraph/util
+  - types
+testImports: []

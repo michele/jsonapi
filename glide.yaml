@@ -1,0 +1,11 @@
+package: github.com/michele/jsonapi
+import:
+- package: github.com/gedex/inflector
+- package: github.com/onsi/ginkgo
+  version: ^1.2.0
+- package: github.com/onsi/gomega
+  version: ^1.0.0
+- package: github.com/guregu/null
+  version: ^2.2
+  subpackages:
+  - zero
